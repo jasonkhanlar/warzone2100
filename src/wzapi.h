@@ -1081,7 +1081,7 @@ namespace wzapi
 	bool removeObject(WZAPI_PARAMS(BASE_OBJECT *psObj, optional<bool> _sfx));
 	no_return_value setScrollLimits(WZAPI_PARAMS(int x1, int y1, int x2, int y2));
 	scr_area getScrollLimits(WZAPI_NO_PARAMS);
-	returned_nullable_ptr<const STRUCTURE> addStructure(WZAPI_PARAMS(std::string structureName, int player, int x, int y));
+	returned_nullable_ptr<const STRUCTURE> addStructure(WZAPI_PARAMS(std::string structureName, int player, int x, int y, int orientation));
 	unsigned int getStructureLimit(WZAPI_PARAMS(std::string structureName, optional<int> _player));
 	int countStruct(WZAPI_PARAMS(std::string structureName, optional<int> _player));
 	int countDroid(WZAPI_PARAMS(optional<int> _type, optional<int> _player));

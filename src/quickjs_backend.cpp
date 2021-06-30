@@ -3449,7 +3449,7 @@ bool quickjs_scripting_instance::registerFunctions(const std::string& scriptName
 	JS_REGISTER_FUNC_NAME(setScrollParams, 4, JS_FUNC_IMPL_NAME(setScrollLimits)); // deprecated!!
 	JS_REGISTER_FUNC(setScrollLimits, 4); // WZAPI
 	JS_REGISTER_FUNC(getScrollLimits, 0); // WZAPI
-	JS_REGISTER_FUNC(addStructure, 4); // WZAPI
+	JS_REGISTER_FUNC(addStructure, 5); // WZAPI
 	JS_REGISTER_FUNC2(getStructureLimit, 1, 2); // WZAPI
 	JS_REGISTER_FUNC2(countStruct, 1, 2); // WZAPI
 	JS_REGISTER_FUNC2(countDroid, 0, 2); // WZAPI
