@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: warzone2100\n"
 "Report-Msgid-Bugs-To: warzone2100-project@lists.sourceforge.net\n"
-"POT-Creation-Date: 2021-06-17 20:56+0000\n"
+"POT-Creation-Date: 2021-06-30 03:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -5599,63 +5599,63 @@ msgid "Command Turret IV"
 msgstr ""
 
 #: data/mp/multiplay/script/rules/printsettings.js:6
-#: src/multiint.cpp:1402
-#: src/multiint.cpp:1405
+#: src/multiint.cpp:1403
+#: src/multiint.cpp:1406
 msgid "Scavengers"
 msgstr ""
 
 #: data/mp/multiplay/script/rules/printsettings.js:7
-#: src/multiint.cpp:1407
+#: src/multiint.cpp:1408
 msgid "No Scavengers"
 msgstr ""
 
 #: data/mp/multiplay/script/rules/printsettings.js:12
-#: src/multiint.cpp:1415
+#: src/multiint.cpp:1416
 msgid "No Alliances"
 msgstr ""
 
 #: data/mp/multiplay/script/rules/printsettings.js:13
-#: src/multiint.cpp:1416
+#: src/multiint.cpp:1417
 msgid "Allow Alliances"
 msgstr ""
 
 #: data/mp/multiplay/script/rules/printsettings.js:14
-#: src/multiint.cpp:1418
+#: src/multiint.cpp:1419
 msgid "Locked Teams"
 msgstr ""
 
 #: data/mp/multiplay/script/rules/printsettings.js:15
-#: src/multiint.cpp:1417
+#: src/multiint.cpp:1418
 msgid "Locked Teams, No Shared Research"
 msgstr ""
 
 #: data/mp/multiplay/script/rules/printsettings.js:21
-#: src/multiint.cpp:1426
+#: src/multiint.cpp:1427
 msgid "Low Power Levels"
 msgstr ""
 
 #: data/mp/multiplay/script/rules/printsettings.js:22
-#: src/multiint.cpp:1427
+#: src/multiint.cpp:1428
 msgid "Medium Power Levels"
 msgstr ""
 
 #: data/mp/multiplay/script/rules/printsettings.js:23
-#: src/multiint.cpp:1428
+#: src/multiint.cpp:1429
 msgid "High Power Levels"
 msgstr ""
 
 #: data/mp/multiplay/script/rules/printsettings.js:29
-#: src/multiint.cpp:1436
+#: src/multiint.cpp:1437
 msgid "Start with No Bases"
 msgstr ""
 
 #: data/mp/multiplay/script/rules/printsettings.js:30
-#: src/multiint.cpp:1437
+#: src/multiint.cpp:1438
 msgid "Start with Bases"
 msgstr ""
 
 #: data/mp/multiplay/script/rules/printsettings.js:31
-#: src/multiint.cpp:1438
+#: src/multiint.cpp:1439
 msgid "Start with Advanced Bases"
 msgstr ""
 
@@ -5740,11 +5740,6 @@ msgstr ""
 msgid "System locale"
 msgstr ""
 
-#: lib/netplay/netplay.cpp:335
-#: lib/netplay/netplay.cpp:1301
-msgid "Enter password here"
-msgstr ""
-
 #: lib/netplay/netplay.cpp:1204
 #, c-format
 msgid "Could not open required port (%s) on  (%s)"
@@ -5763,7 +5758,7 @@ msgid ""
 "Your external IP is %s"
 msgstr ""
 
-#: lib/netplay/netplay.cpp:2005
+#: lib/netplay/netplay.cpp:2004
 msgid "No UPnP device found. Configure your router/firewall to open port 2100!"
 msgstr ""
 
@@ -15178,7 +15173,7 @@ msgid "Player dropped"
 msgstr ""
 
 #: src/display3d.cpp:749
-#: src/multiint.cpp:2496
+#: src/multiint.cpp:2497
 msgid "Waiting for other players"
 msgstr ""
 
@@ -15192,44 +15187,44 @@ msgid "Setting zoom to %.0f"
 msgstr ""
 
 #. TRANSLATORS:	Refers to the loss of a single unit, known by its name
-#: src/droid.cpp:241
+#: src/droid.cpp:245
 #, c-format
 msgid "%s Lost!"
 msgstr ""
 
-#: src/droid.cpp:1099
+#: src/droid.cpp:1104
 msgid "Structure Restored"
 msgstr ""
 
-#: src/droid.cpp:1858
+#: src/droid.cpp:1863
 #, c-format
 msgid "Group %u selected - %u Unit"
 msgid_plural "Group %u selected - %u Units"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/droid.cpp:1867
+#: src/droid.cpp:1872
 #, c-format
 msgid "%u unit assigned to Group %u"
 msgid_plural "%u units assigned to Group %u"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/droid.cpp:1878
+#: src/droid.cpp:1883
 #, c-format
 msgid "Centered on Group %u - %u Unit"
 msgid_plural "Centered on Group %u - %u Units"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/droid.cpp:1882
+#: src/droid.cpp:1887
 #, c-format
 msgid "Aligning with Group %u - %u Unit"
 msgid_plural "Aligning with Group %u - %u Units"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/droid.cpp:2964
+#: src/droid.cpp:2969
 msgid "Unit transfer failed -- unit limits exceeded"
 msgstr ""
 
@@ -15806,43 +15801,51 @@ msgstr ""
 msgid "GAME OPTIONS"
 msgstr ""
 
-#: src/frontend.cpp:2118
-#: src/multiint.cpp:2965
+#: src/frontend.cpp:2031
+msgid "Insane Difficulty"
+msgstr ""
+
+#: src/frontend.cpp:2032
+msgid "This difficulty is for very experienced players!"
+msgstr ""
+
+#: src/frontend.cpp:2134
+#: src/multiint.cpp:2966
 msgid "Mod: "
 msgstr ""
 
-#: src/frontend.cpp:2580
+#: src/frontend.cpp:2596
 msgid "Increase Game Display Scale?"
 msgstr ""
 
-#: src/frontend.cpp:2582
+#: src/frontend.cpp:2598
 msgid "With your current resolution & display scale settings, the game's user interface may appear small, and the game perspective may appear distorted."
 msgstr ""
 
-#: src/frontend.cpp:2584
+#: src/frontend.cpp:2600
 msgid "You can fix this by increasing the game's Display Scale setting."
 msgstr ""
 
-#: src/frontend.cpp:2586
+#: src/frontend.cpp:2602
 #, c-format
 msgid "Would you like to increase the game's Display Scale to: %u%%?"
 msgstr ""
 
-#: src/frontend.cpp:2588
+#: src/frontend.cpp:2604
 msgid "Increase Display Scale"
 msgstr ""
 
-#: src/frontend.cpp:2605
+#: src/frontend.cpp:2621
 #, c-format
 msgid "Display Scale Increased to: %u%%"
 msgstr ""
 
-#: src/frontend.cpp:2606
 #: src/frontend.cpp:2622
+#: src/frontend.cpp:2638
 msgid "You can adjust the Display Scale at any time in the Video Options menu."
 msgstr ""
 
-#: src/frontend.cpp:2621
+#: src/frontend.cpp:2637
 msgid "Tip: Adjusting Display Scale"
 msgstr ""
 
@@ -15873,7 +15876,7 @@ msgid "Player %u is cheating (debug menu) him/herself a new droid."
 msgstr ""
 
 #: src/hci.cpp:1658
-#: src/multiint.cpp:1425
+#: src/multiint.cpp:1426
 #: src/multimenu.cpp:686
 msgid "Power"
 msgstr ""
@@ -17339,7 +17342,7 @@ msgid "KEY MAPPING"
 msgstr ""
 
 #: src/keyedit.cpp:575
-#: src/multiint.cpp:1503
+#: src/multiint.cpp:1504
 #: src/musicmanager.cpp:769
 #: src/titleui/gamefind.cpp:91
 #: src/titleui/protocol.cpp:81
@@ -17411,7 +17414,7 @@ msgstr ""
 msgid "GAME SAVED :"
 msgstr ""
 
-#: src/move.cpp:1975
+#: src/move.cpp:1984
 #, c-format
 msgid "You found %u power in an oil drum."
 msgstr ""
@@ -17565,298 +17568,302 @@ msgstr ""
 msgid "Click to set Password"
 msgstr ""
 
-#: src/multiint.cpp:1391
+#: src/multiint.cpp:1378
+msgid "Enter password here"
+msgstr ""
+
+#: src/multiint.cpp:1392
 msgid "Select Player Name"
 msgstr ""
 
-#: src/multiint.cpp:1414
+#: src/multiint.cpp:1415
 #: src/multimenu.cpp:674
 msgid "Alliances"
 msgstr ""
 
-#: src/multiint.cpp:1435
+#: src/multiint.cpp:1436
 msgid "Base"
 msgstr ""
 
-#: src/multiint.cpp:1445
+#: src/multiint.cpp:1446
 msgid "Map Preview"
 msgstr ""
 
-#: src/multiint.cpp:1446
+#: src/multiint.cpp:1447
 msgid "Click to see Map"
 msgstr ""
 
-#: src/multiint.cpp:1452
+#: src/multiint.cpp:1453
 msgid "Show Structure Limits"
 msgstr ""
 
-#: src/multiint.cpp:1452
+#: src/multiint.cpp:1453
 msgid "Set Structure Limits"
 msgstr ""
 
-#: src/multiint.cpp:1466
+#: src/multiint.cpp:1467
 msgid "Random Game Options"
 msgstr ""
 
-#: src/multiint.cpp:1467
+#: src/multiint.cpp:1468
 msgid ""
 "Random Game Options\n"
 "Can be blocked by players' votes"
 msgstr ""
 
-#: src/multiint.cpp:1478
+#: src/multiint.cpp:1479
 msgid "Tech"
 msgstr ""
 
-#: src/multiint.cpp:1479
+#: src/multiint.cpp:1480
 msgid "Technology Level 1"
 msgstr ""
 
-#: src/multiint.cpp:1480
+#: src/multiint.cpp:1481
 msgid "Technology Level 2"
 msgstr ""
 
-#: src/multiint.cpp:1481
+#: src/multiint.cpp:1482
 msgid "Technology Level 3"
 msgstr ""
 
-#: src/multiint.cpp:1482
+#: src/multiint.cpp:1483
 msgid "Technology Level 4"
 msgstr ""
 
-#: src/multiint.cpp:1491
 #: src/multiint.cpp:1492
+#: src/multiint.cpp:1493
 msgid "Start Hosting Game"
 msgstr ""
 
-#: src/multiint.cpp:1648
+#: src/multiint.cpp:1649
 msgid "DIFFICULTY"
 msgstr ""
 
-#: src/multiint.cpp:1678
+#: src/multiint.cpp:1679
 msgid "Starts disadvantaged"
 msgstr ""
 
-#: src/multiint.cpp:1679
+#: src/multiint.cpp:1680
 msgid "Plays nice"
 msgstr ""
 
-#: src/multiint.cpp:1680
+#: src/multiint.cpp:1681
 msgid "No holds barred"
 msgstr ""
 
-#: src/multiint.cpp:1681
+#: src/multiint.cpp:1682
 msgid "Starts with advantages"
 msgstr ""
 
-#: src/multiint.cpp:1709
+#: src/multiint.cpp:1710
 msgid "CHOOSE AI"
 msgstr ""
 
-#: src/multiint.cpp:1762
+#: src/multiint.cpp:1763
 msgid "Allow human players to join in this slot"
 msgstr ""
 
-#: src/multiint.cpp:1773
+#: src/multiint.cpp:1774
 msgid "Leave this slot unused"
 msgstr ""
 
-#: src/multiint.cpp:1905
+#: src/multiint.cpp:1906
 msgid "Team"
 msgstr ""
 
-#: src/multiint.cpp:1918
-#: src/multiint.cpp:3908
+#: src/multiint.cpp:1919
+#: src/multiint.cpp:3909
 #: src/multimenu.cpp:1242
 #, c-format
 msgid "The host has kicked %s from the game!"
 msgstr ""
 
-#: src/multiint.cpp:1919
-#: src/multiint.cpp:3910
+#: src/multiint.cpp:1920
+#: src/multiint.cpp:3911
 #: src/multimenu.cpp:1246
 msgid "The host has kicked you from the game."
 msgstr ""
 
-#: src/multiint.cpp:2475
+#: src/multiint.cpp:2476
 msgid "Click to change difficulty"
 msgstr ""
 
-#: src/multiint.cpp:2496
+#: src/multiint.cpp:2497
 msgid "Waiting for player"
 msgstr ""
 
-#: src/multiint.cpp:2496
+#: src/multiint.cpp:2497
 msgid "Player is ready"
 msgstr ""
 
-#: src/multiint.cpp:2496
+#: src/multiint.cpp:2497
 msgid "Player is downloading"
 msgstr ""
 
-#: src/multiint.cpp:2496
+#: src/multiint.cpp:2497
 msgid "Click when ready"
 msgstr ""
 
-#: src/multiint.cpp:2496
+#: src/multiint.cpp:2497
 msgid "Waiting for download"
 msgstr ""
 
-#: src/multiint.cpp:2521
+#: src/multiint.cpp:2522
 msgid "READY?"
 msgstr ""
 
-#: src/multiint.cpp:2562
+#: src/multiint.cpp:2563
 msgid "PLAYERS"
 msgstr ""
 
-#: src/multiint.cpp:2598
+#: src/multiint.cpp:2599
 msgid "Click to change to this slot"
 msgstr ""
 
-#: src/multiint.cpp:2627
+#: src/multiint.cpp:2628
 msgid "Choose Team"
 msgstr ""
 
-#: src/multiint.cpp:2631
+#: src/multiint.cpp:2632
 msgid "Teams locked"
 msgstr ""
 
-#: src/multiint.cpp:2653
+#: src/multiint.cpp:2654
 msgid "Click to change player colour"
 msgstr ""
 
-#: src/multiint.cpp:2669
+#: src/multiint.cpp:2670
 msgid "Click to change player faction"
 msgstr ""
 
-#: src/multiint.cpp:2694
+#: src/multiint.cpp:2695
 msgid "Click to change player position"
 msgstr ""
 
-#: src/multiint.cpp:2701
+#: src/multiint.cpp:2702
 msgid "Click to change AI, right click to distribute choice"
 msgstr ""
 
-#: src/multiint.cpp:2716
+#: src/multiint.cpp:2717
 msgid "Player ID: "
 msgstr ""
 
-#: src/multiint.cpp:2717
+#: src/multiint.cpp:2718
 msgid "(none)"
 msgstr ""
 
-#: src/multiint.cpp:2769
+#: src/multiint.cpp:2770
 msgid "Kicked from game"
 msgstr ""
 
-#: src/multiint.cpp:2961
+#: src/multiint.cpp:2962
 msgid "CHAT"
 msgstr ""
 
-#: src/multiint.cpp:3575
+#: src/multiint.cpp:3576
 msgid "Sorry! Failed to host the game."
 msgstr ""
 
-#: src/multiint.cpp:3620
+#: src/multiint.cpp:3621
 msgid "Game Name Updated."
 msgstr ""
 
-#: src/multiint.cpp:3748
+#: src/multiint.cpp:3749
 #, c-format
 msgid "*** password [%s] is now required! ***"
 msgstr ""
 
-#: src/multiint.cpp:3754
+#: src/multiint.cpp:3755
 msgid "*** password is NOT required! ***"
 msgstr ""
 
-#: src/multiint.cpp:3767
+#: src/multiint.cpp:3768
 msgid "This is a map-mod, it can change your playing experience!"
 msgstr ""
 
-#: src/multiint.cpp:3772
+#: src/multiint.cpp:3773
 msgid "This is a random map, it can vary your playing experience!"
 msgstr ""
 
-#: src/multiint.cpp:4038
+#: src/multiint.cpp:4039
 msgid "Host is Starting Game"
 msgstr ""
 
-#: src/multiint.cpp:4281
+#: src/multiint.cpp:4282
 msgid "You have been kicked: "
 msgstr ""
 
-#: src/multiint.cpp:4295
+#: src/multiint.cpp:4296
 msgid "No connection to host."
 msgstr ""
 
-#: src/multiint.cpp:4464
+#: src/multiint.cpp:4465
 msgid "Cannot change to a map with too few slots for all players."
 msgstr ""
 
-#: src/multiint.cpp:4469
+#: src/multiint.cpp:4470
 msgid "Cannot change to a map with fewer slots."
 msgstr ""
 
-#: src/multiint.cpp:4566
+#: src/multiint.cpp:4567
 msgid "The host has quit."
 msgstr ""
 
-#: src/multiint.cpp:4605
+#: src/multiint.cpp:4606
 msgid "UPnP has been enabled."
 msgstr ""
 
-#: src/multiint.cpp:4611
+#: src/multiint.cpp:4612
 msgid "UPnP detection failed. You must manually configure router yourself."
 msgstr ""
 
-#: src/multiint.cpp:4615
+#: src/multiint.cpp:4616
 msgid "UPnP detection is in progress..."
 msgstr ""
 
-#: src/multiint.cpp:4622
+#: src/multiint.cpp:4623
 msgid "UPnP detection disabled by user. Autoconfig of port 2100 will not happen."
 msgstr ""
 
-#: src/multiint.cpp:4628
+#: src/multiint.cpp:4629
 msgid "Hit the ready box to begin your challenge!"
 msgstr ""
 
-#: src/multiint.cpp:4632
+#: src/multiint.cpp:4633
 msgid "Press the start hosting button to begin hosting a game."
 msgstr ""
 
-#: src/multiint.cpp:4793
+#: src/multiint.cpp:4794
 #, c-format
 msgid "Click to take player slot %d"
 msgstr ""
 
-#: src/multiint.cpp:4807
-#: src/multiint.cpp:5041
+#: src/multiint.cpp:4808
+#: src/multiint.cpp:5042
 msgid "Open"
 msgstr ""
 
-#: src/multiint.cpp:4807
-#: src/multiint.cpp:5042
+#: src/multiint.cpp:4808
+#: src/multiint.cpp:5043
 msgid "Closed"
 msgstr ""
 
-#: src/multiint.cpp:4883
+#: src/multiint.cpp:4884
 #, c-format
 msgid "Sending Map: %u%% "
 msgstr ""
 
-#: src/multiint.cpp:4883
+#: src/multiint.cpp:4884
 #, c-format
 msgid "Map: %u%% downloaded"
 msgstr ""
 
-#: src/multiint.cpp:4931
+#: src/multiint.cpp:4932
 msgid "HOST"
 msgstr ""
 
-#: src/multiint.cpp:4938
+#: src/multiint.cpp:4939
 #: src/multimenu.cpp:693
 msgid "Ping"
 msgstr ""
@@ -17968,17 +17975,17 @@ msgstr ""
 
 #: src/multimenu.cpp:714
 #, c-format
-msgid "Traf: %u/%u"
+msgid "Traf: %lu/%lu"
 msgstr ""
 
 #: src/multimenu.cpp:718
 #, c-format
-msgid "Uncompressed: %u/%u"
+msgid "Uncompressed: %lu/%lu"
 msgstr ""
 
 #: src/multimenu.cpp:722
 #, c-format
-msgid "Pack: %u/%u"
+msgid "Pack: %lu/%lu"
 msgstr ""
 
 #: src/multimenu.cpp:1023
@@ -18149,12 +18156,12 @@ msgstr ""
 msgid "We can't do that! We must be a Cyborg unit to use a Cyborg Transport!"
 msgstr ""
 
-#: src/research.cpp:659
+#: src/research.cpp:867
 #, c-format
 msgid "Research completed: %s"
 msgstr ""
 
-#: src/research.cpp:1149
+#: src/research.cpp:1362
 msgid "Research Award"
 msgstr ""
 
@@ -18318,67 +18325,67 @@ msgstr ""
 msgid "Can't build any more \"%s\", Construction Unit Limit Reached — Production Halted"
 msgstr ""
 
-#: src/structure.cpp:5238
+#: src/structure.cpp:5239
 #, c-format
 msgid "%s - %u Unit assigned - Hitpoints %d/%d"
 msgid_plural "%s - %u Units assigned - Hitpoints %d/%d"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/structure.cpp:5257
+#: src/structure.cpp:5258
 #, c-format
 msgid "%s - %u Unit assigned - Damage %d/%d"
 msgid_plural "%s - %u Units assigned - Hitpoints %d/%d"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/structure.cpp:5262
-#: src/structure.cpp:5272
-#: src/structure.cpp:5279
-#: src/structure.cpp:5305
-#: src/structure.cpp:5314
-#: src/structure.cpp:5321
-#: src/structure.cpp:5329
+#: src/structure.cpp:5263
+#: src/structure.cpp:5273
+#: src/structure.cpp:5280
+#: src/structure.cpp:5306
+#: src/structure.cpp:5315
+#: src/structure.cpp:5322
+#: src/structure.cpp:5330
 #, c-format
 msgid "%s - Hitpoints %d/%d"
 msgstr ""
 
-#: src/structure.cpp:5295
+#: src/structure.cpp:5296
 #, c-format
 msgid "%s - Connected %u of %u - Hitpoints %d/%d"
 msgstr ""
 
-#: src/structure.cpp:5450
-#: src/structure.cpp:5495
+#: src/structure.cpp:5451
+#: src/structure.cpp:5496
 #, c-format
 msgid "%s - Electronically Damaged"
 msgstr ""
 
-#: src/structure.cpp:5620
+#: src/structure.cpp:5621
 msgid "Electronic Reward - Visibility Report"
 msgstr ""
 
-#: src/structure.cpp:5659
+#: src/structure.cpp:5660
 msgid "Factory Reward - Propulsion"
 msgstr ""
 
-#: src/structure.cpp:5681
+#: src/structure.cpp:5682
 msgid "Factory Reward - Body"
 msgstr ""
 
-#: src/structure.cpp:5703
+#: src/structure.cpp:5704
 msgid "Factory Reward - Weapon"
 msgstr ""
 
-#: src/structure.cpp:5711
+#: src/structure.cpp:5712
 msgid "Factory Reward - Nothing"
 msgstr ""
 
-#: src/structure.cpp:5738
+#: src/structure.cpp:5739
 msgid "Repair Facility Award - Repair"
 msgstr ""
 
-#: src/structure.cpp:5744
+#: src/structure.cpp:5745
 msgid "Repair Facility Award - Nothing"
 msgstr ""
 
@@ -18591,11 +18598,11 @@ msgstr ""
 msgid "Version: %s,%s Built: %s%s"
 msgstr ""
 
-#: src/wzapi.cpp:2320
+#: src/wzapi.cpp:2330
 msgid "YOU ARE VICTORIOUS!"
 msgstr ""
 
-#: src/wzapi.cpp:2325
+#: src/wzapi.cpp:2335
 msgid "YOU WERE DEFEATED!"
 msgstr ""
 
